@@ -1,19 +1,21 @@
-//
-//  ViewController.swift
-//  Player
-//
-//  Created by me on 2023/04/05.
-//
-
 import UIKit
 
+
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var button: UIButton!
+    
+    let alert =
+    UIAlertController(title: "hello", message: "buy me", preferredStyle: .alert)
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        alert.addAction(UIAlertAction(title: "no", style: .default))
     }
 
-
+    @IBAction func btnClick(_ sender: Any) {
+        self.present(alert, animated: true)
+    }
 }
 
