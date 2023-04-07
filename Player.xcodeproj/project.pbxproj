@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8CA9E23F29E0603700595603 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9E23E29E0603700595603 /* PlayerViewController.swift */; };
 		8CBA519229DDEEB40047DF8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA519129DDEEB40047DF8C /* AppDelegate.swift */; };
 		8CBA519429DDEEB40047DF8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA519329DDEEB40047DF8C /* SceneDelegate.swift */; };
 		8CBA519629DDEEB40047DF8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA519529DDEEB40047DF8C /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8CA9E23E29E0603700595603 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		8CBA518E29DDEEB40047DF8C /* Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Player.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CBA519129DDEEB40047DF8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CBA519329DDEEB40047DF8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				8CBA519129DDEEB40047DF8C /* AppDelegate.swift */,
 				8CBA519329DDEEB40047DF8C /* SceneDelegate.swift */,
 				8CBA519529DDEEB40047DF8C /* ViewController.swift */,
+				8CA9E23E29E0603700595603 /* PlayerViewController.swift */,
 				8CBA519729DDEEB40047DF8C /* Main.storyboard */,
 				8CBA519A29DDEEB40047DF8C /* Assets.xcassets */,
 				8CBA519C29DDEEB40047DF8C /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CBA519629DDEEB40047DF8C /* ViewController.swift in Sources */,
+				8CA9E23F29E0603700595603 /* PlayerViewController.swift in Sources */,
 				8CBA519229DDEEB40047DF8C /* AppDelegate.swift in Sources */,
 				8CBA519429DDEEB40047DF8C /* SceneDelegate.swift in Sources */,
 			);
