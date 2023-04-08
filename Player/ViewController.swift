@@ -77,7 +77,7 @@ class ViewController: UIViewController {
         let alert = UIAlertController(title: "hello", message: text, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "no", style: .default))
         
-        self.present(alert, animated: true)
+        present(alert, animated: true)
     }
 }
 

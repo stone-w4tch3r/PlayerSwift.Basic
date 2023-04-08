@@ -3,26 +3,54 @@ import AVFoundation
 
 class PlayerViewController : UIViewController{
     
-    @IBOutlet weak var PlayImage: UIImageView!
+    @IBOutlet weak var PlayButton: UIButton!
     
-    var player: AVAudioPlayer!
+    var player: AVAudioPlayer?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let path = Bundle.main.path(forResource: "dick-tajik", ofType: "mp3") {
-            do {
-                print("try")
-                try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath: path))
-                PlayImage.image = UIImage(systemName: "link")
-                print("success")
-            } catch {
-                PlayImage.image = UIImage(systemName: "globe")
-                print("err")
-            }
+        player = loadTrackFromAsset()
+                .flatMapSafe(initPlayer)
+    }
+
+    func loadTrackFromAsset() -> Data? {
+        guard let asset = NSDataAsset(name: "dick-tajik") else {
+            return nil
         }
-        
-        //create player
+        return asset.data
     }
     
+    func initPlayer(trackData: Data) -> AVAudioPlayer? {
+        do {
+            return try AVAudioPlayer(data: trackData)
+        } catch {
+            return nil
+        }
+    }
+
+//    @IBAction func onPlayClick(_ sender: Any) {
+//    }
+    @IBAction func onPlayClick(_ sender: Any){
+        if player == nil{
+            return
+        }
+        
+        if let playing = player?.isPlaying, playing {
+            PlayButton.setImage(UIImage(systemName: "play.fill"), for: .normal)
+            player?.pause()
+        } else {
+            PlayButton.setImage(UIImage(systemName: "pause.fill"), for: .normal)
+            player?.play()
+        }
+    }
+}
+
+extension Optional {
+    @inlinable public func flatMapSafe<U>(_ transform: (Wrapped) -> U?) -> U? {
+        guard let value = self else {
+            return nil
+        }
+        return transform(value)
+    }
 }
