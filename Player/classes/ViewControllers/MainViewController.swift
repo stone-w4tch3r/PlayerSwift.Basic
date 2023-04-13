@@ -1,7 +1,7 @@
 import UIKit
 
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
     
     @IBOutlet weak var button: UIButton!
     
@@ -81,7 +81,7 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController : UIPickerViewDataSource{
+extension MainViewController : UIPickerViewDataSource{
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 2
@@ -92,7 +92,7 @@ extension ViewController : UIPickerViewDataSource{
     }
 }
 
-extension ViewController : UIPickerViewDelegate{
+extension MainViewController : UIPickerViewDelegate{
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return "row #\(row)"
