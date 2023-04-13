@@ -51,9 +51,12 @@ class PlayerViewController : UIViewController{
     
     @objc func durationSliderValueChanged(_ sender: UISlider) {
         if sender == durationSlider {
+            let wasPlaying = player?.isPlaying ?? false
             player?.pause()
             player?.currentTime = TimeInterval(sender.value)
-            player?.play()
+            if wasPlaying {
+                player?.play()
+            }
         }
     }
 
