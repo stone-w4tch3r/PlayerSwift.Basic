@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   version = "1.7">
+   version = "1.8">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -14,9 +14,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8CBA518D29DDEEB40047DF8C"
-               BuildableName = "Player.app"
-               BlueprintName = "Player"
-               ReferencedContainer = "container:Player.xcodeproj">
+               BuildableName = "PlayerSwift.Basic.app"
+               BlueprintName = "PlayerSwift.Basic"
+               ReferencedContainer = "container:PlayerSwift.Basic.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -27,6 +27,8 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       shouldAutocreateTestPlan = "YES">
+      <Testables>
+      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -43,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8CBA518D29DDEEB40047DF8C"
-            BuildableName = "Player.app"
-            BlueprintName = "Player"
-            ReferencedContainer = "container:Player.xcodeproj">
+            BuildableName = "PlayerSwift.Basic.app"
+            BlueprintName = "PlayerSwift.Basic"
+            ReferencedContainer = "container:PlayerSwift.Basic.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <LocationScenarioReference

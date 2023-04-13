@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		8CA9E23E29E0603700595603 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		8CB1140329E824A0004F26EF /* ImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesViewController.swift; sourceTree = "<group>"; };
-		8CBA518E29DDEEB40047DF8C /* Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Player.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CBA518E29DDEEB40047DF8C /* PlayerSwift.Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayerSwift.Basic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CBA519129DDEEB40047DF8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CBA519329DDEEB40047DF8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8CBA519529DDEEB40047DF8C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		8CBA518F29DDEEB40047DF8C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8CBA518E29DDEEB40047DF8C /* Player.app */,
+				8CBA518E29DDEEB40047DF8C /* PlayerSwift.Basic.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,9 +92,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8CBA518D29DDEEB40047DF8C /* Player */ = {
+		8CBA518D29DDEEB40047DF8C /* PlayerSwift.Basic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8CBA51A229DDEEB40047DF8C /* Build configuration list for PBXNativeTarget "Player" */;
+			buildConfigurationList = 8CBA51A229DDEEB40047DF8C /* Build configuration list for PBXNativeTarget "PlayerSwift.Basic" */;
 			buildPhases = (
 				8CBA518A29DDEEB40047DF8C /* Sources */,
 				8CBA518B29DDEEB40047DF8C /* Frameworks */,
@@ -104,9 +104,9 @@
 			);
 			dependencies = (
 			);
-			name = Player;
+			name = PlayerSwift.Basic;
 			productName = Player;
-			productReference = 8CBA518E29DDEEB40047DF8C /* Player.app */;
+			productReference = 8CBA518E29DDEEB40047DF8C /* PlayerSwift.Basic.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -124,7 +124,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8CBA518929DDEEB40047DF8C /* Build configuration list for PBXProject "Player" */;
+			buildConfigurationList = 8CBA518929DDEEB40047DF8C /* Build configuration list for PBXProject "PlayerSwift.Basic" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,7 +137,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8CBA518D29DDEEB40047DF8C /* Player */,
+				8CBA518D29DDEEB40047DF8C /* PlayerSwift.Basic */,
 			);
 		};
 /* End PBXProject section */
@@ -363,7 +363,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8CBA518929DDEEB40047DF8C /* Build configuration list for PBXProject "Player" */ = {
+		8CBA518929DDEEB40047DF8C /* Build configuration list for PBXProject "PlayerSwift.Basic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CBA51A029DDEEB40047DF8C /* Debug */,
@@ -372,7 +372,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8CBA51A229DDEEB40047DF8C /* Build configuration list for PBXNativeTarget "Player" */ = {
+		8CBA51A229DDEEB40047DF8C /* Build configuration list for PBXNativeTarget "PlayerSwift.Basic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CBA51A329DDEEB40047DF8C /* Debug */,
